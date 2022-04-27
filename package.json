@@ -1,7 +1,7 @@
 {
   "name": "@uniswap/interface",
   "description": "Uniswap Interface",
-  "homepage": "https://uniswap.exchange",
+  "homepage": "https://qq953710428.github.io/swap2.0",
   "private": true,
   "dependencies": {
     "@ethersproject/address": "^5.0.0-beta.134",
@@ -83,6 +83,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
+	"deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "ipfs-build": "cross-env PUBLIC_URL=\".\" react-scripts build",
     "test": "react-scripts test --env=jsdom",
